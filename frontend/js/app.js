@@ -1,7 +1,6 @@
 var request = new XMLHttpRequest();
-// var url =  "https://personal-blog-jahan.herokuapp.com/"
-var url = "http://localhost:5000";
-function loginDash() {
+var url =  "https://personal-blog-jahan.herokuapp.com/"
+functionaries  loginDash() {
     var adminEmail = document.getElementById('adminEmail').value
     var adminPass = document.getElementById('adminPass').value
 
